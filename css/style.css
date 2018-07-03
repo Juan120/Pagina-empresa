@@ -5,15 +5,27 @@ body{
 }
 
 #logo{
-  width: 50px;
+  width: 100px;
   margin-right:   10px;
-  border-radius: 25px;
-
-
+  border-radius: 20%;
 }
+#logo:hover{
+  border-radius: 10%;
+  transition: .2s;
+}
+.vl{
+  border-right: solid 1px #cccccc;
+
+  height: 36px;
+}
+
 #nombre-empresa{
   font-size: 20px;
+  font-family:inherit;
 
+}
+#nombre-empresa:hover{
+  font-weight: bold;
 }
 
 #iniciar-secion{
@@ -21,6 +33,7 @@ body{
   margin-left: 40px;
   margin-right: 10px;
 }
+
 #carrito-compras{
   font-size: 20px;
 }
@@ -28,39 +41,74 @@ body{
 #primerafila{
   margin-top: 5px;
 }
-
+#telefonos{
+  float: right;
+}
 #carouselExampleIndicators{
   width: 100%;
   height: 600px;
 }
+
 #carouselExampleIndicators div img{
   width: 100%;
   height: 600px;
 }
+#comineza-explorar{
+  font-size: 30px;
+  font-family:cursive;
+
+}
+
 #ofertas img{
   height: 210px;
-  padding: 10px;
-}
-#ofertas {
-  padding-top: 50px;
+  padding-bottom: 15px;
+  margin: 0px;
+  border-radius: 0%;
 
+}
+#ofertas img:hover{
+  width: 99.6%;
+  transition: .2s;
+
+}
+
+#ofertas {
+  padding-top: 80px;
 }
 
 
 #cotizacion{
+  border:solid 5px #cccccc;
   float: right;
-
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
 }
+
 #cotizacion h6 span{
   color:RGB(36, 42, 169);
   font-weight: bold;
-
 }
+
 #cotizacion  h6{
   font-weight: bold;
+}
 
+iframe{
+  width: 450px;
+  padding: 10px;
+  padding-bottom: 150px;
+}
+
+#botones2{
+  float: right;
+  margin: 10px;
+}
+
+#iniciodesecion{
+  
+}
+#telefonos{
+  padding-left: 500px;
 }
