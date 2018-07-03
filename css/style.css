@@ -96,7 +96,7 @@ body{
 }
 
 iframe{
-  width: 450px;
+  width: 410px;
   padding: 10px;
   padding-bottom: 150px;
 }
@@ -110,5 +110,32 @@ iframe{
 
 }
 #telefonos{
-  
+
+}
+.footer{
+  padding: 30px 0;
+  bottom:;
+  width:100%;
+  background-color: HSL(200, 10%, 12%);
+  color:#efefef;
+}
+
+.footer a{
+  color: #9af7f3;
+}
+
+@media query only screen and (max-with:768px){
+.footer{ height: 300px;}
+}
+
+#tres-iconos .col-md-2{
+  margin: 5px;
+  padding-top: 10px;
+  border:solid 5px #cccccc;
+  border-radius: 50%;
+}
+
+#tres-iconos I{
+  font-size: 40px;
+
 }
