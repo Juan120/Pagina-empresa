@@ -3,6 +3,9 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
 }
+ #cart{
+  margin-top:150px;
+}
 
 #logo{
   width: 100px;
@@ -15,7 +18,6 @@ body{
 }
 .vl{
   border-right: solid 1px #cccccc;
-
   height: 36px;
 }
 
@@ -102,22 +104,18 @@ iframe{
 }
 
 #botones2{
-  float: right;
+
   margin: 10px;
 }
 
-#iniciodesecion{
 
-}
-#telefonos{
-
-}
 .footer{
   padding: 30px 0;
   bottom:;
   width:100%;
   background-color: HSL(200, 10%, 12%);
   color:#efefef;
+  margin-top: 100px;
 }
 
 .footer a{
@@ -130,12 +128,17 @@ iframe{
 
 #tres-iconos .col-md-2{
   margin: 5px;
-  padding-top: 10px;
-  border:solid 5px #cccccc;
+  padding-top: 19px;
+  border:solid 2px HSL(200, 10%, 12%);
   border-radius: 50%;
 }
+#tres-iconos .col-md-2:hover{
+ background-color: HSL(344, 83%, 44%);
+ color: white;
+}
+
 
 #tres-iconos I{
-  font-size: 40px;
+  font-size: 30px;
 
 }
