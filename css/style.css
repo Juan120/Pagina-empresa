@@ -63,7 +63,6 @@ body{
 
 #ofertas img{
   height: 210px;
-  padding-bottom: 15px;
   margin: 0px;
   border-radius: 0%;
 
@@ -135,6 +134,7 @@ iframe{
 #tres-iconos .col-md-2:hover{
  background-color: HSL(41, 77%, 52%);
  color: white;
+ transition: .3s;
 }
 
 
