@@ -6,6 +6,9 @@ body{
  #cart{
   margin-top:150px;
 }
+nav{
+  font-size: small;
+}
 
 #logo{
   width: 100px;
@@ -97,9 +100,11 @@ body{
 }
 
 iframe{
-  width: 410px;
+  width: 400px;
   padding: 10px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+  padding-right: 20px;
+
 }
 
 #botones2{
@@ -146,39 +151,39 @@ iframe{
   background-image: url("../img/run.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 250px;
+  height: 200px;
 
 }
 #deportesdos{
   background-image: url("../img/entrenamiento.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 250px;
+  height: 200px;
 
 }
 #deportestres{
   background-image: url("../img/fut2.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 250px;
+  height: 200px;
 }
 #deportescuatro{
   background-image: url("../img/hombre.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 250px;
+  height: 200px;
 }
 #deportescinco{
   background-image: url("../img/mujer.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 250px;
+  height: 200px;
 }
 #deportesseis{
   background-image: url("../img/niños.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  height: 250px;
+  height: 200px;
 }
 #segundaseccion{
   margin-top: 20px;
