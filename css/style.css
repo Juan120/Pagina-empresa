@@ -133,12 +133,54 @@ iframe{
   border-radius: 50%;
 }
 #tres-iconos .col-md-2:hover{
- background-color: HSL(344, 83%, 44%);
+ background-color: HSL(41, 77%, 52%);
  color: white;
 }
 
 
 #tres-iconos I{
   font-size: 30px;
+}
 
+#deportesuno{
+  background-image: url("../img/run.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+
+}
+#deportesdos{
+  background-image: url("../img/entrenamiento.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+
+}
+#deportestres{
+  background-image: url("../img/fut2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+#deportescuatro{
+  background-image: url("../img/hombre.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+#deportescinco{
+  background-image: url("../img/mujer.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+#deportesseis{
+  background-image: url("../img/niños.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+#segundaseccion{
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
