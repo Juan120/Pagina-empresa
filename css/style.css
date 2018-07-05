@@ -44,7 +44,7 @@ nav{
 }
 
 #primerafila{
-  margin-top: 5px;
+  margin-top: 2px;
 }
 #telefonos{
   float: right;
@@ -90,6 +90,15 @@ nav{
   padding-bottom: 15px;
 }
 
+#contacto2{
+  border:solid 1px #cccccc;
+  padding: 15px;
+  margin-right: 20px;
+
+}
+.contacto1 h4{
+ font-size: 20px;
+}
 #cotizacion h6 span{
   color:RGB(36, 42, 169);
   font-weight: bold;
@@ -99,13 +108,7 @@ nav{
   font-weight: bold;
 }
 
-iframe{
-  width: 400px;
-  padding: 10px;
-  padding-bottom: 100px;
-  padding-right: 20px;
 
-}
 
 #botones2{
 
