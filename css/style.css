@@ -11,9 +11,9 @@ nav{
 }
 
 #logo{
-  width: 100px;
+  width: 45px;
   margin-right:   10px;
-  border-radius: 20%;
+  border-radius: 80%;
 }
 #logo:hover{
   border-radius: 10%;
