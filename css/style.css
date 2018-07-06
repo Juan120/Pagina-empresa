@@ -68,11 +68,14 @@ nav{
   height: 210px;
   margin: 0px;
   border-radius: 0%;
+  margin-bottom: 10px;
 
 }
 #ofertas img:hover{
   width: 99.6%;
   transition: .2s;
+  background-color: white;
+   box-shadow: 5px 8px rgba(0, 0, 0, 0.2);;
 
 }
 
@@ -191,8 +194,29 @@ nav{
 #segundaseccion{
   margin-top: 20px;
   margin-bottom: 30px;
+
 }
 #futbolimg{
-  margin-top: 100px;
-  
+  margin-top: 90px;
+  background-color: HSL(48, 4%, 5%);
+  border: solid 5px  HSL(48, 4%, 5%);
+  padding-bottom: 10px;
+}
+
+
+#c-dos .card{
+  margin: 10px
+}
+#card{
+}
+
+#redes{
+  font-size: 25px;
+
+}
+#redes li a{
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  color: HSL(48, 4%, 5%);
 }
