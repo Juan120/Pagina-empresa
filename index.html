@@ -114,16 +114,23 @@
 <!--cierre de carrucel-->
 
 <div class="container"><!--contenedor de la pagina-->
-  <hr>
+  <hr class="bg-info">
   <div class="row">
     <div class="col-md-12 text-center" >
           <h6 id="comineza-explorar" >Comiemza a explorar</h6>
+          <i id="abajo" class="fas fa-chevron-down" ></i>
     </div>
   </div>
-    <hr>
+<div class="col-md-4 verano">
+  <a href="#"  class="nav-link"> <h5 class=" p-2 text-dark">¡OFERTAS DE VERANO!</h5></a>
+</div>
+
   <div class="row" id="ofertas">
+
     <div class="col-md-4 ">
-      <div >
+
+
+  <div >
       <a href="#" ><img  src="img/ptomocion50c-750x360.jpg" alt="ofertas" class="card-img-top rounded " ></a>
 
       </div>
@@ -145,7 +152,7 @@
     <!--cierre de ofertas con col-md-4-->
 
     <div class="col-md-4 col-12  ">
-      <p>
+      <p class=" d-flex justify-content-end">
     <a id="botones2"  class=" d-flex justify-content-center btn btn-info " data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"  aria-controls="multiCollapseExample1" >Solicita una cotización</a>
     </p>
        <div class="collapse multi-collapse " id="multiCollapseExample1">
@@ -171,19 +178,22 @@
 
 
       <div >
-        <h6 class="pl-3 text-danger"> Conoce la ubicacion de nuestra tienda</h6>
-       <iframe id="mapa"src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d1892.3133854868645!2d-97.39611347217473!3d18.45524767397084!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d18.455027599999998!2d-97.3960051!4m3!3m2!1d18.455020899999997!2d-97.3960053!5e0!3m2!1ses!2smx!4v1530588533817" width="380" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <h6 class="pl-5 text-danger "> Conoce la ubicacion de nuestra tienda</h6>
+       <iframe id="mapa" class="pl-5 pb-4"src="https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d1892.3133854868645!2d-97.39611347217473!3d18.45524767397084!3m2!1i1024!2i768!4f13.1!4m9!3e2!4m3!3m2!1d18.455027599999998!2d-97.3960051!4m3!3m2!1d18.455020899999997!2d-97.3960053!5e0!3m2!1ses!2smx!4v1530588533817" width="340" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       </div>
       <!--cierre de form-->
     </div>
     <!--cierre cotizacion-->
+     <hr>
    </div>
    <!--cierre de row -ofertas-->
-   <hr>
-   <div class="container">
 
- <h4 class="text-center">lo mas vendido</h4>
+   <div class="container">
+<div class="col-md-3 rounded">
+  <h4 class="text-center" id="lomasvendido" >Lo mas nuevo <i class="fas fa-angle-right"></i> </h4>
+</div>
+
 
 
      <div class="row " >
@@ -195,35 +205,35 @@
              <div class="carousel-item active">
             <div class="row d-flex justify-content-center">
 
-              <div id="card" class="card col-md-2 bg-light"  >
+              <div id="card" class="card col-md-2 "  >
 
-                <img src="img/tenis.jpg" alt="" class="card-img-top pl-4"   height="50%">
+                <img src="img/tenis1.jpg" alt="" class="card-img-top pl-4"   height="50%">
                 <div class="card-body">
                   <h5 class="card-title"> Produc 1 </h5>
                   <p class="card-text text-justify" >Adidas <samp class="text-info">$899</samp></p>
                   <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                 </div>
               </div>
-              <div id="card" class=" card col-md-2 bg-light" >
-                <img src="img/car1.jpg" alt="" class="card-img-top" height="50%">
+              <div id="card" class=" card col-md-2 " >
+                <img src="img/tenis2.jpg" alt="" class="card-img-top" height="50%">
                 <div class="card-body">
-                  <h5 class="card-title"> Produc 1 </h5>
+                  <h5 class="card-title"> Produc 2 </h5>
                   <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                   <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                 </div>
               </div>
-              <div class="card col-md-2 bg-light" id="card">
-                <img src="img/car1.jpg" alt="" class="card-img-top"  height="50%">
+              <div class="card col-md-2 " id="card">
+                <img src="img/tenis3.jpg" alt="" class="card-img-top"  height="50%">
                 <div class="card-body">
-                  <h5 class="card-title"> Produc 1 </h5>
+                  <h5 class="card-title"> Produc 3 </h5>
                   <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                   <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                 </div>
               </div>
-              <div class="card col-md-2 bg-light">
-                <img src="img/car1.jpg" alt="" class="card-img-top" height="50%" >
+              <div class="card col-md-2 ">
+                <img src="img/tenis4.jpg" alt="" class="card-img-top" height="50%" >
                 <div class="card-body">
-                  <h5 class="card-title">Futbol</h5>
+                  <h5 class="card-title">Product 4 </h5>
                   <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                   <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                 </div>
@@ -234,34 +244,34 @@
                <!-- /.carousel-item -->
              <div class="carousel-item">
                <div class="row d-flex justify-content-center">
-                 <div id="card" class="card col-md-2 bg-light" >
-                   <img src="img/tenis.jpg" alt="" class="card-img-top pl-4"   height="50%">
+                 <div id="card" class="card col-md-2" >
+                   <img src="img/tenis5.jpg" alt="" class="card-img-top pl-4"   height="50%">
                    <div class="card-body">
-                     <h5 class="card-title"> Produc 1 </h5>
+                     <h5 class="card-title"> Produc 5 </h5>
                      <p class="card-text text-justify" >Adidas <samp class="text-info">$899</samp></p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
                  </div>
-                 <div id="card" class=" card col-md-2 bg-light" >
-                   <img src="img/car1.jpg" alt="" class="card-img-top" height="50%">
+                 <div id="card" class=" card col-md-2 " >
+                   <img src="img/tenis6.jpg" alt="" class="card-img-top" height="50%">
                    <div class="card-body">
-                     <h5 class="card-title"> Produc 1 </h5>
+                     <h5 class="card-title"> Produc 6 </h5>
                      <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
                  </div>
-                 <div class="card col-md-2 bg-light" id="card">
-                   <img src="img/car1.jpg" alt="" class="card-img-top"  height="50%">
+                 <div class="card col-md-2 " id="card">
+                   <img src="img/tenis7.jpg" alt="" class="card-img-top"  height="50%">
                    <div class="card-body">
-                     <h5 class="card-title"> Produc 1 </h5>
+                     <h5 class="card-title"> Produc 7 </h5>
                      <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
                  </div>
-                 <div class="card col-md-2 bg-light">
-                   <img src="img/car1.jpg" alt="" class="card-img-top" height="50%" >
+                 <div class="card col-md-2 ">
+                   <img src="img/tenis8.jpg" alt="" class="card-img-top" height="50%" >
                    <div class="card-body">
-                     <h5 class="card-title">Futbol</h5>
+                     <h5 class="card-title">Product 8</h5>
                      <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
@@ -270,35 +280,35 @@
              </div>
              <div class="carousel-item">
                <div class="row d-flex justify-content-center">
-                 <div id="card" class="card col-md-2 bg-light" >
+                 <div id="card" class="card col-md-2 " >
 
-                   <img src="img/tenis.jpg" alt="" class="card-img-top pl-4"   height="50%">
+                   <img src="img/tenis9.jpg" alt="" class="card-img-top pl-4"   height="50%">
                    <div class="card-body">
-                     <h5 class="card-title"> Produc 1 </h5>
+                     <h5 class="card-title"> Produc 9 </h5>
                      <p class="card-text text-justify" >Adidas <samp class="text-info">$899</samp></p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
                  </div>
-                 <div id="card" class=" card col-md-2 bg-light" >
-                   <img src="img/car1.jpg" alt="" class="card-img-top" height="50%">
+                 <div id="card" class=" card col-md-2 " >
+                   <img src="img/tenis10.jpg" alt="" class="card-img-top" height="50%">
                    <div class="card-body">
-                     <h5 class="card-title"> Produc 1 </h5>
+                     <h5 class="card-title"> Produc 10 </h5>
                      <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
                  </div>
-                 <div class="card col-md-2 bg-light" id="card">
-                   <img src="img/car1.jpg" alt="" class="card-img-top"  height="50%">
+                 <div class="card col-md-2 " id="card">
+                   <img src="img/tenis11.jpg" alt="" class="card-img-top"  height="50%">
                    <div class="card-body">
-                     <h5 class="card-title"> Produc 1 </h5>
+                     <h5 class="card-title"> Produc 11 </h5>
                      <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
                    </div>
                  </div>
-                 <div class="card col-md-2 bg-light">
-                   <img src="img/car1.jpg" alt="" class="card-img-top" height="50%" >
+                 <div class="card col-md-2 ">
+                   <img src="img/tenis12.jpg" alt="" class="card-img-top" height="50%" >
                    <div class="card-body">
-                     <h5 class="card-title">Futbol</h5>
+                     <h5 class="card-title">Product 12</h5>
                      <p class="card-text text-justify" >Lorem ipsum dolor sit amet.</p>
                      <a href="product-single.html" class="btn btn-primary">Ver mas... </a>
 
@@ -311,13 +321,13 @@
              <!-- /.carousel-item -->
          </div>
          <!-- /.carousel-inner -->
-         <a   class="bg-dark" href="#carousel-product" class="carousel-control-prev " data-slide="prev" role="button">
+         <a class="bg-" href="#carousel-product" class="carousel-control-prev " data-slide="prev" role="button">
                  <span class="carousel-control-prev-icon ">
                  </span>
 
                </a>
 
-        <a class="bg-dark" href="#carousel-product" class="carousel-control-next" data-slide="next" role="button">
+        <a class="bg-" href="#carousel-product" class="carousel-control-next" data-slide="next" role="button">
           <span class="carousel-control-next-icon">
           </span>
 
@@ -330,7 +340,7 @@
    </div>
       </div>
    <div class="container">
-     <div class="row">
+     <div class="row categorias">
        <div  class=" col-md-4 ">
           <div id="deportesuno" class=" d-flex align-items-end pb-4 d-flex justify-content-center  rounded">
             <a href="" class="btn btn-info"><strong>Correr  </strong>    <i class="fas fa-angle-right"></i> </a>
@@ -343,7 +353,7 @@
            </div>
            <div  class=" col-md-4 ">
               <div id="deportestres" class=" d-flex align-items-end pb-4 d-flex justify-content-center rounded ">
-                <a href="" class="btn btn-info"><strong>Futbol  </strong>    <i class="fas fa-angle-right"></i> </a>
+                <a href="futbol.html" class="btn btn-info"><strong>Futbol  </strong>    <i class="fas fa-angle-right"></i> </a>
               </div>
              </div>
        </div>
